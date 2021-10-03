@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.mainContainer{
+    height: 570px;
+    width: 900px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.subShadowCont{
+    display: grid;
+    height: 500px;
+    width: 800px;
+    box-shadow: 2px 3px 25px 9px rgba(0,0,0,0.45);
+    -webkit-box-shadow: 2px 3px 25px 9px rgba(0,0,0,0.45);
+    -moz-box-shadow: 2px 3px 25px 9px rgba(0,0,0,0.45);
+    border-radius: 3%;
+    grid-template-columns: 100px 450px 250px;
+    grid-template-rows: 200px 300px;
+    grid-template-areas: 
+    "LatL upCent LatR"
+    "LatL lowCent LatR";
+}
+
+.lateralLeftCointainer{
+    grid-area: LatL;
+    border-bottom-left-radius: 3%;
+    border-top-left-radius: 3%;
+    margin-top: 35px;
+    margin-left: 35px;
+}
+
+.icon{
+    height: 55px;
+    color: #A5A5A5;  
+    font-size: 30px;
+    position: relative;
+  }
+
+  .icon:hover{
+    color: #080808;
+
+  }
+
+  #divisorLine{
+    border: none;
+    border-left: 2px solid #090000;
+    height: 500px;
+    margin-top: -310px;
+    margin-left: 65px;  
+  }
+
+.upperCentralCointainer{
+    grid-area: upCent;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.title{
+    position: relative;
+    color:  #858585;
+    font-family: Roboto, Helvetica, sans-serif;  
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;    
+}
+
+.firstBen{
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    width: 100px;
+    border-radius: 8%;
+    box-shadow: 2px 0px 19px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 0px 19px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 0px 19px -3px rgba(0,0,0,0.75);
+    margin-top: 30px;
+    border: 1px solid #858585bb;
+    padding-left: 10px;
+    padding-top: 22px;
+    gap: 10px;
+}
+
+.firstBen > i{
+    height: 40px;
+    color: #090000;
+    font-size: 40px;
+    position: relative;    
+}
+
+#vehLoan{
+    position: relative;
+    color:#090000;
+    font-family: Arial, Helvetica, sans-serif;  
+    font-style: normal;
+    font-weight: bold;
+    font-size:9px; 
+}
+
+.secondBen{
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    width: 100px;
+    border-radius: 8%;
+    box-shadow: 2px 0px 19px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 0px 19px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 0px 19px -3px rgba(0,0,0,0.75);
+    margin-top: -94px;
+    margin-left: 138px;
+    border: 1px solid #858585bb;
+    padding-left: 10px;
+    padding-top: 22px;
+    gap: 12px;
+}
+
+.secondBen > i{
+    height: 40px;
+    color: #090000;
+    font-size: 40px;
+    position: relative;    
+}
+
+#houseLoan{
+    position: relative;
+    color: #585858;
+    font-family: Arial, Helvetica, sans-serif;  
+    font-style: normal;
+    font-weight: bold;
+    font-size:9px; 
+}
+
+.thirdBen{
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    width: 100px;
+    border-radius: 8%;
+    box-shadow: 2px 0px 19px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 0px 19px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 0px 19px -3px rgba(0,0,0,0.75);
+    margin-top: -94px;
+    margin-left: 275px;
+    border: 1px solid #858585bb;
+    padding-left: 10px;
+    padding-top: 22px;
+    gap: 10px;
+}  
+.thirdBen > i{
+    height: 40px;
+    color: #090000;
+    font-size: 40px;
+    position: relative;    
+}
+
+#stdLoan{
+    position: relative;
+    color: #585858;
+    font-family: Arial, Helvetica, sans-serif;  
+    font-style: normal;
+    font-weight: bold;
+    font-size:9px; 
+}
+
+.lowerCentralCointainer{
+    grid-area: lowCent;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.recentTransactions{
+    display: grid;
+    height: 180px;
+    width: 390px;
+    margin-top: 10px;
+    padding-left: 10px;
+    grid-template-columns: 100px 450px 250px;
+    grid-template-rows: 200px 300px;
+    grid-template-areas: 
+    "LatL upCent LatR"
+    "LatL lowCent LatR";
+}
+
+
+.seenContent{
+    display: flex;
+    justify-content: center;
+    height: 25px;
+    width: 35px;
+    padding-top: 10%;
+    margin-top: 20px;
+    border-radius: 25%;
+    box-shadow: 2px 0px 19px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 0px 19px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 0px 19px -3px rgba(0,0,0,0.75);
+    color: #585858;
+}
+
+
+.messageTransaction{
+    display: flex;
+    flex-direction: column;
+    margin-left: -50px;
+    height: 151px;
+    width: 220px;
+    font-family: Arial, Helvetica, sans-serif;  
+    font-style: normal;
+    font-weight: bold;
+    font-size:11px; 
+    gap: 28px;
+    padding-top: 28px;
+}
+
+.divisorTransaction{
+    position: relative;
+    width: 390px;
+}
+
+.movement{
+    color: #535353;   
+}
+
+.detail{
+    color: #AFAFAF;
+}
+
+.signal{
+    height: 151px;
+    width: 20px;
+    margin-left: -280px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 28px;
+    gap: 42px;
+}
+
+.signalMinus{
+    color: red;
+}
+
+.signalPlus{
+    color: #569525;
+}
+
+.amount{
+    height: 151px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -170px;
+    margin-left: 300px;
+    gap: 45px;
+}
+
+.value{
+    position: relative;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;  
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px; 
+}
+
+.lateralRightCointainer{
+    grid-area: LatR;
+    background: #090000;
+    border-bottom-right-radius: 3%;
+    border-top-right-radius: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.lateralRightCointainer > img{
+    max-width: 60%;
+    padding-left: 45px;
+    padding-top: 40px;
+}
+
+.cardDetail{
+    padding-top: 50px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#titleDetail{
+    position: relative;
+    color: #FBFBFB;
+    font-family: Arial, Helvetica, sans-serif;  
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px; 
+}
+
+.detail{
+    position: relative;
+    color: #FBFBFB;
+    font-family: Arial, Helvetica, sans-serif;  
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9px; 
+}
+
+.cardDetail > button{
+    height: 40px;
+    width: 100px;
+    background: #DDEC18;
+    color: white;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;  
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px; 
+    margin-top: 15%;
+    margin-left: 20%;
+    border-radius: 5px;
+    box-shadow: 2px 0px 19px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 0px 19px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 0px 19px -3px rgba(0,0,0,0.75);
+}
+
+.cardDetail > button:active{
+    background: #0B0B0C;
+}
+
